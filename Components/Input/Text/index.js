@@ -5,7 +5,7 @@ import React from 'react'
 import { StyledContainerTextInput, StyledSectionTextInput, StyledLabelTextInput, StyledInputTextInput, StyledIconTextInput } from './styles.js'
 
 /*main function************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-function TextInput({ 
+function TextInput({
     label = false, type = 'text', value, name, placeholder, disabled = false, icon = false, 
     containerWidth, containerHeight, inputWidth, fontWeight = 400, borderWidth = false, borderColor = false, borderStyle = false, borderRadius,
     focus = false, onlyReading = false, onClick, onChange, onFocus, onBlur, data_placeholder = '', data_value = '', children 

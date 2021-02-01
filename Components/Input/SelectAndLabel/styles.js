@@ -17,11 +17,11 @@ export const
 
     StyledSectionToHeader = styled.section`
         position: relative;
-        
+
         display:flex;
         justify-content: space-between;
         align-items: center;
-        
+
         padding: 2rem;
 
         height: 5rem;
@@ -35,12 +35,12 @@ export const
 
         cursor: pointer;
 
-        ${props => props.selected && 
+        ${props => props.selected &&
             css`
                 border: ${props => props.focusBorder};
             `
         }
-    `, 
+    `,
 
     StyledSectionToItems = styled.section`
         position: relative;
@@ -70,19 +70,19 @@ export const
             opacity: 1;
         }
 
-        ${props => (props.valid || props.focus) && 
+        ${props => (props.valid || props.focus) &&
             css`
                 border: ${props => props.validBorder};
             `
         }
-    `, 
+    `,
 
     StyledSelectButton = styled.span`
-        
+
     `,
 
     StyledItems = styled.div`
-        padding: 1rem;  
+        padding: 1rem;
 
         width: 100%;
 

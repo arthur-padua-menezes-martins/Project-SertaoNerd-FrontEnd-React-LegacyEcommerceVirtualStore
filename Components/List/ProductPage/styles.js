@@ -28,24 +28,19 @@ export const
         @media only screen and (max-width: 720px)  {
             justify-content: center;
         }
-        
     `,
 
     StyledContainerProductPageImageList = styled.section`
-    
         display: flex;
         grid-area: StyledProductPageImageList;
 
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     `,
 
     StyledArticleProductPageImageList = styled.article`
-
         display: flex;
-        
         margin-bottom: 1rem;
 
         justify-content: center;
@@ -83,7 +78,6 @@ export const
 
 
     StyledContainerProductPageFeaturedImage = styled.section`
-    
         grid-area: StyledProductPageFeaturedImage;
 
         display: flex;
@@ -127,8 +121,6 @@ export const
                 }
             }
         }
-
-   
     `,
 
     StyledArticleProductPageFeaturedImage = styled.article`
@@ -138,11 +130,11 @@ export const
             width: 100%;
         }
 
-        @media only screen and (max-width: 899px) { 
-            min-width: 50rem; 
+        @media only screen and (max-width: 899px) {
+            min-width: 50rem;
         }
-        @media only screen and (max-width: 719px) { 
-            min-width: 40rem; 
+        @media only screen and (max-width: 719px) {
+            min-width: 40rem;
         }
         @media only screen and (max-width: 439px) {
             min-width: 80%;
@@ -186,8 +178,7 @@ export const
     `,
 
     StyledContainerOthersPageDetails = styled.main`
-    
-        display: grid; 
+        display: grid;
         grid-template-areas:'StyledOthersAssessments';
         grid-template-columns:1FR;
         grid-template-rows: 2rem;
@@ -213,7 +204,7 @@ export const
     StyledOthersAssessments = styled(StyledOthersInterface)`
         grid-area: StyledOthersAssessments;
 
-        justify-content: normal;          
+        justify-content: normal;
 
         span:nth-child(1) {
             color: ${props => props.theme.colors.primary};
@@ -274,7 +265,7 @@ export const
         align-items: center;
 
         height: 6rem;
-    }      
+    }
     span:nth-child(1) {
         font-size: 4.6rem;
         font-weight: 700;
@@ -304,7 +295,7 @@ export const
         pointer-events: none;
     }
 
-    @media only screen and (max-width: 1200px) { 
+    @media only screen and (max-width: 1200px) {
         span {
             padding: 0.6rem;
         }
@@ -314,14 +305,14 @@ export const
             font-size: 1.2rem;
         }
     }
-    @media only screen and (max-width: 900px) { 
+    @media only screen and (max-width: 900px) {
         span:nth-child(2) {
             padding: 1.1rem;
 
             font-size: 1.1rem;
         }
     }
-    @media only screen and (max-width: 400px) { 
+    @media only screen and (max-width: 400px) {
         span:nth-child(1) {
             font-size: 3.8rem;
         }
@@ -339,7 +330,6 @@ export const
 
 
     StyledContainerVariationsPageDetails = styled.main`
-    
     section {
         display: flex;
 
@@ -357,7 +347,6 @@ export const
     article {
         border-top: 1px rgba(255,75,0,0.2) solid;
     }
-    
     `,
 
     /*info************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -373,7 +362,7 @@ export const
                 display: flex;
                 justify-content: center;
             }
-        }   
+        }
     `,
 
     StyledContainerProductPageSelectOption = styled.span`
@@ -389,7 +378,7 @@ export const
                 color: ${props => props.theme.colors.grayQuaternary};
                 border-top: 0.2rem ${props => props.theme.colors.primary} solid;
             `:
-            css`    
+            css`
                 color: ${props => props.theme.colors.graySecondary};
                 border-top: 0.2rem ${props => props.theme.colors.graySecondary} solid;
             `
@@ -413,7 +402,6 @@ export const
 
 
     StyledSelectInterface = styled.main`
-    
         section {
             margin: 4rem;
         }

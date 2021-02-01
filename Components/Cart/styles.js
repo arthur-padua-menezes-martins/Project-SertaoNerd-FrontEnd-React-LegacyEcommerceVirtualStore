@@ -7,21 +7,21 @@ export const
         grid-area: HeaderCart;
 
         justify-content: center;
-        
+
         color: white;
         font-size:1.4rem;
     `,
 
 
     StyledArticleHeaderCart = styled.article`
-    
+
         position: relative;
         display: flex;
 
         align-items: center;
 
         img {
-          
+
         }
 
         span {
@@ -31,7 +31,7 @@ export const
 
             justify-content: center;
             align-items: center;
-                        
+
             background-color: ${props => props.theme.colors.tertiary};
             border-radius: 50%;
         }
@@ -48,7 +48,7 @@ export const
             span {
                 top: -0.6rem;
                 right: -1.4rem;
-                
+
                 width: 2.6rem;
                 height: 2.6rem;
 
@@ -60,7 +60,7 @@ export const
         @media only screen and (max-width: 899px) {
 
             min-width: 3rem;
-            
+
             img {
                 min-height: 2rem;
                 max-height: 2rem;
@@ -77,12 +77,12 @@ export const
             }
 
         }
-        
+
 
         ${ props => props.account === true &&
             css`
                 i {
-                    
+
                 }
             `
         }
@@ -91,7 +91,7 @@ export const
         ${ props => props.cart === true &&
             css`
                 i {
-                    
+
                 }
 
                 span {
@@ -99,11 +99,11 @@ export const
                 }
             `
         }
-    
+
     `,
 
     StyledSectionHeaderContainerMobile = styled.section`
-        
+
     display: grid;
     grid-area: MobileHeaderCart;
 
@@ -114,21 +114,21 @@ export const
         justify-content: center;
         align-items: center;
 
-        span {  
+        span {
             font-size: 1.2rem;
             font-weight: 700;
 
             i {
             font-size: 1.8rem;
             margin-bottom: 0.4rem;
-            } 
+            }
 
             img {
                 min-width: 2.6rem;
                 min-height: 1.8rem;
                 max-height: 1.8rem;
             }
-        }  
+        }
     }
 
     `

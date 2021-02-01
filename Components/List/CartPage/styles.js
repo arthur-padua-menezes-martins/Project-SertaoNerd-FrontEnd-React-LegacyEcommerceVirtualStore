@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
-export const 
-    
+export const
+
     StyledContainerDeliveryOptionsAndPaymentOptions = styled.main`
         display: grid;
         grid-template-areas: 'StyledContainerPaymentTableOptions StyledContainerPaymentOptions';
@@ -16,10 +16,10 @@ export const
 
         border-radius: 0.8rem;
 
-        ${props => props.display === 'column' ? 
+        ${props => props.display === 'column' ?
             css`
                 grid-template-areas: 'StyledContainerPaymentTableOptions StyledContainerPaymentOptions';
-            ` : 
+            ` :
 
             css`
                 grid-template-areas: 'StyledContainerPaymentTableOptions' 'StyledContainerPaymentOptions';
@@ -30,7 +30,7 @@ export const
         @media only screen and (max-width: 799px) {
             grid-template-columns:  1FR;
             grid-template-areas: 'StyledContainerPaymentTableOptions' 'StyledContainerPaymentOptions';
-            
+
             height: ${props => props.height ? `${props.height}rem` : '40rem;'};
 
             background-color: transparent;
@@ -40,11 +40,11 @@ export const
 
     StyledContainerOptionsInterface = styled.main`
         display: flex;
-    
+
         margin: auto;
 
         width: 100%;
-        height: 100%; 
+        height: 100%;
     `,
     StyledContainerPaymentTableOptions = styled(StyledContainerOptionsInterface)`
         grid-area: StyledContainerPaymentTableOptions;
@@ -69,7 +69,7 @@ export const
 
         min-width: ${props => typeof props.width === 'number' ? `${props.width}rem` : props.width};
         min-height: 20rem;
-            
+
         border-radius: 0.8rem;
     `,
 
@@ -79,19 +79,19 @@ export const
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
         margin: auto;
         margin-top: auto;
 
         width: calc(100% - 3rem);
-        height: calc(100% - 3rem);        
+        height: calc(100% - 3rem);
     `,
     StyledSectionPaymentOptionsInterface = styled.section`
         display: flex;
 
         flex-direction: column;
         align-items: center;
-        
+
         width: unset;
         min-height: 10rem;
 
@@ -99,15 +99,15 @@ export const
     `,
     StyledSectionPaymentOptionsValues = styled(StyledSectionPaymentOptionsInterface)`
 
-        table { 
-            tbody { 
-                tr { 
-                    text-align: left; 
-                    
-                    td { 
+        table {
+            tbody {
+                tr {
+                    text-align: left;
+
+                    td {
                         font-size: 1.4rem;
-                    } 
-                } 
+                    }
+                }
             }
         }
 

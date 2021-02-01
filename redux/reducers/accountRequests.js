@@ -12,7 +12,7 @@ const reducer = (state = {}, action) => {
             return { ...state, ...action.payload }
             break
 
-        case GET_REQUEST: 
+        case GET_REQUEST:
             return { ...state, ...action.payload }
             break
 

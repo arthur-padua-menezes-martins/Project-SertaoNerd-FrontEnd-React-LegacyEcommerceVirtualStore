@@ -8,7 +8,7 @@ export const
         justify-content: center;
 
         color: white;
-    
+
         @media only screen and (min-width: 900px) {
             font-size: 3rem;
         }
@@ -20,6 +20,5 @@ export const
 
 
     StyledSpanHeaderAccount = styled.section`
-    
-    
+
     `

@@ -17,10 +17,10 @@ export const
             switch (props.selected) {
 
                 case 'perfil':
-                    return css` 
-                        span:nth-child(1) { 
+                    return css`
+                        span:nth-child(1) {
                             section {
-                                    div:last-child { 
+                                    div:last-child {
                                     background-color: ${props => props.theme.colors.primary}; border-bottom-color: ${props => props.theme.colors.tertiary}; border-right-color: ${props => props.theme.colors.tertiary}; color: #FFFFFF; 
                                 }
                                     div {
@@ -31,10 +31,10 @@ export const
                     break
 
                 case 'request':
-                    return css` 
-                        span:nth-child(2) { 
+                    return css`
+                        span:nth-child(2) {
                             section {
-                                div:last-child { 
+                                div:last-child {
                                     background-color: ${props => props.theme.colors.primary}; border-bottom-color: ${props => props.theme.colors.tertiary}; border-right-color: ${props => props.theme.colors.tertiary}; color: #FFFFFF; 
                                 }
                                 div {
@@ -51,7 +51,7 @@ export const
 
         min-width: inherit;
         min-height: 4rem;
-        max-height: 4rem;      
+        max-height: 4rem;
 
         cursor: pointer;
 
@@ -69,8 +69,6 @@ export const
         div:first-child {
             min-width: 4rem;
             max-width: 4rem;
-
-            
         }
         div:last-child {
             justify-content: left;
@@ -91,7 +89,7 @@ export const
         color: ${props => props.theme.colors.grayTertiary};
 
         background-color: #FFFFFF;
-        
+
         border-top: 0.1rem rgba(204,204,204,0.2) solid;
         border-bottom: 0.1rem rgba(204,204,204,0.2) solid;
         border-right: 0.1rem rgba(204,204,204,0.2) solid;

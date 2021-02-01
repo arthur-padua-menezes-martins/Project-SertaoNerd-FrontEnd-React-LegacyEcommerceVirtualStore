@@ -83,8 +83,7 @@ const reducer = (state = initialState, action) => {
             console.log(action.payload)
             return { ...state, newPayment: action.payload.Requests.newPayment}
         break
-    
-    
+
     }
 
 }

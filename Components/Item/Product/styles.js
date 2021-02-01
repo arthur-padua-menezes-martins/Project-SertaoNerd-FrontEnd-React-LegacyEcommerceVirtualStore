@@ -5,18 +5,18 @@ export const
 
     margin: auto;
 
-    display: flex;  
+    display: flex;
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    
+
     min-height: inherit;
 
     article {
         display: flex;
 
         min-width: 22rem;
-        max-height: inherit; 
+        max-height: inherit;
 
         flex-direction:column;
         justify-content: center;
@@ -28,16 +28,16 @@ export const
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: center; 
+            align-items: center;
 
             min-width: 100%;
         }
 
         div:first-child {
-            min-height: 22rem; 
+            min-height: 22rem;
             img {
-                max-height: 22rem; 
-                max-width: 22rem; 
+                max-height: 22rem;
+                max-width: 22rem;
             }
         }
 
@@ -70,11 +70,11 @@ export const
 
             min-height: 4rem;
             max-height: 4rem;
-            
+
             span {
                 width: 100%;
             }
-            span:nth-child(1) { 
+            span:nth-child(1) {
                 text-decoration: line-through;
                 font-size: 1.8rem;
                 font-weight: 400;
@@ -95,16 +95,16 @@ export const
 
         @media only screen and (min-width: 1001px) { min-width: 25rem; max-width: 25rem; }
 
-        @media only screen and (max-width: 720px) { 
-            min-width: 50vw; max-width: 50vw; 
+        @media only screen and (max-width: 720px) {
+            min-width: 50vw; max-width: 50vw;
 
             article {
                 div:first-child {
-                    min-height: 22rem;  
-                    min-width: 22rem; 
-                    img {  
-                        max-height: 22rem;  
-                        max-width: 22rem; 
+                    min-height: 22rem;
+                    min-width: 22rem;
+                    img {
+                        max-height: 22rem;
+                        max-width: 22rem;
                     }
                 }
             }
@@ -113,13 +113,13 @@ export const
         @media only screen and (max-width: 450px) {
             article {
                 min-width: 18rem;
-                div:first-child { 
-                    min-height: 18rem;  
-                    min-width: 18rem; 
-                    img { 
-                        max-height: 18rem; 
-                        max-width: 18rem; 
-                    } 
+                div:first-child {
+                    min-height: 18rem;
+                    min-width: 18rem;
+                    img {
+                        max-height: 18rem;
+                        max-width: 18rem;
+                    }
                 }
 
                 div:nth-child(3), div:nth-child(4) { min-width: 18rem; }
@@ -129,11 +129,11 @@ export const
         @media only screen and (max-width: 380px) {
             article {
                 min-width: 16rem;
-                div { 
-                    img { 
-                        max-height: 16rem; 
-                        max-width: 16rem; 
-                    } 
+                div {
+                    img {
+                        max-height: 16rem;
+                        max-width: 16rem;
+                    }
                 }
 
                 div:nth-child(3), div:nth-child(4) { min-width: 16rem; }

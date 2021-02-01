@@ -42,11 +42,11 @@ function AccountPerfil(props) {
             name: (props.login.authentication.accountInformations.name || ''),
             email: (props.login.authentication.accountInformations.email || ''),
             cpf: (props.login.authentication.accountInformations.cpf || ''),
-            cep: (props.login.authentication.accountInformations.address.cep || ''),
-            street: (props.login.authentication.accountInformations.address.street || ''),
-            number: (props.login.authentication.accountInformations.address.number || ''),
-            city: (props.login.authentication.accountInformations.address.city || ''),
-            state: (props.login.authentication.accountInformations.address.state || '')
+            cep: (props.login.authentication.accountInformations.address?.cep || ''),
+            street: (props.login.authentication.accountInformations.address?.street || ''),
+            number: (props.login.authentication.accountInformations.address?.number || ''),
+            city: (props.login.authentication.accountInformations.address?.city || ''),
+            state: (props.login.authentication.accountInformations.address?.state || '')
         })
 
 

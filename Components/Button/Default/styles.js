@@ -38,7 +38,7 @@ export const
 
         background-color: ${props => !props.selected ? props.backgroundColor : props.color};
 
-        ${props => 
+        ${props =>
             css`border: ${props =>  `${props.borderWidth}rem`} ${props.borderColor || ''} solid;`
         };
 
@@ -59,13 +59,13 @@ export const
 
         a {
             color: ${props => !props.selected ? props.color : '#FFFFFF'};
-        } 
+        }
 
         @media only screen and (max-width: 1200px) {
             min-width: ${props => `${props.width * 0.9}rem`};
             min-height: ${props => `${props.height * 0.9}rem`};
             font-size: ${props => `${props.size * 0.9}rem`};
-        }  
+        }
 
         ${props => props.staticDefinition &&
             css`
@@ -73,14 +73,12 @@ export const
                 @media only screen and (max-width: 450px) { min-width: 18rem; }
                 @media only screen and (max-width: 380px) { min-width: 16rem; }
             `
-        } 
+        }
     `,
-    
+
     StyledImg = styled.img`
-    
     min-height: ${props => `${props.height}rem`};
     max-height: ${props => `${props.height}rem`};
 
     fill: white;
-    
     `

@@ -19,13 +19,11 @@ const _saveCart = (item) => {
   localStorage.setItem(`@cart${cart[0].user_id}`, JSON.stringify(cart))
 }
 
-export const
-
-  addCart = (item) => {
+export const addCart = (item) => {
     _saveCart(item)
   }
 
-const getCart = (user_id) => {
+export const getCart = (user_id) => {
   try {
     return JSON.parse(localStorage.getItem(`@cart${user_id}`) || '[]')
   } catch (e) {
@@ -33,11 +31,11 @@ const getCart = (user_id) => {
   }
 }
 
-const getCountItemsCart = (user_id) => {
+export const getCountItemsCart = (user_id) => {
   return getCart(user_id).reduce((acumulator, { quantity }) => acumulator + (Number(quantity) || 1), 0)
 }
 
-const removeCart = (index, user_id) => {
+export const removeCart = (index, user_id) => {
   var cart = getCart(user_id)
 
   cart = cart.reduce((acumulator, item, idx) =>
@@ -46,7 +44,7 @@ const removeCart = (index, user_id) => {
   localStorage.setItem(`@cart${user_id}`, JSON.stringify(cart))
 }
 
-const cleanCart = () => localStorage.removeItem('@cart')
+export const cleanCart = () => localStorage.removeItem('@cart')
 
 export default {
   addCart,

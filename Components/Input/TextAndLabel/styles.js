@@ -11,7 +11,7 @@ export const
 
     StyledSection = styled.section`
         position: relative;
-        
+
         display:flex;
         align-items: center;
 

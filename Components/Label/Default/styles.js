@@ -18,8 +18,8 @@ export const
         display: flex;
         align-items: center;
 
-        min-width: 100%;      
-        min-height: 4rem; 
+        min-width: 100%;
+        min-height: 4rem;
 
         font-size: ${props => `${props.fontSize}rem`};
         font-weight: ${props => props.fontWeight};
@@ -40,6 +40,6 @@ export const
         flex-direction: ${props => props.flexDirection};
         justify-content: ${props => props.justifyContent};
         flex-wrap: ${props => props.flexWrap};
-        
+
         align-items: ${props => props.alignItems};
     `

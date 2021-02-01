@@ -28,7 +28,7 @@ function Register(props) {
         if (window.innerWidth > 720) {
             return (
                 <Layout>
-                    
+
                     <Header
                         InitialInnerWidth={InitialInnerWidth}
                         setInitialInnerWidth={setInitialInnerWidth}

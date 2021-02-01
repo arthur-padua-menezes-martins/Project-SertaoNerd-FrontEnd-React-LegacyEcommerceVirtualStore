@@ -19,10 +19,10 @@ export default createGlobalStyle`
         font-size: 0.625rem;
         font-weight: 500;
         line-height: 1;
-        
+
         text-rendering: optimizeLegibility !important;
         -webkit-font-smoothing: antialiased !important;
-        user-select:none; 
+        user-select:none;
         -webkit-user-select:none;
     }
 
@@ -47,7 +47,7 @@ export default createGlobalStyle`
         font-size: 1rem;
     }
 
-    table { 
+    table {
         border-collapse: collapse;
         text-align: center;
     }
@@ -61,7 +61,7 @@ export default createGlobalStyle`
     }
 `
 
-export const theme = { 
+export const theme = {
     colors : {
         primary: 'rgb(255, 75, 0)',
         secondary: 'rgb(255, 50, 0)',

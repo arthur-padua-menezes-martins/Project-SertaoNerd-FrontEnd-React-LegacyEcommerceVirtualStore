@@ -7,7 +7,7 @@ export const
         align-items: center;
 
         margin: 0 !important;
-        
+
         min-width: 4rem;
 
         input {

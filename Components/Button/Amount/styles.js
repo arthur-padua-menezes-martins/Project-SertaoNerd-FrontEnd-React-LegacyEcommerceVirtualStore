@@ -10,12 +10,11 @@ export const
         justify-content: ${props => props.justifyContent || 'space-around'};
 
         margin: 0 auto !important;
- 
+
         width: ${props => props.width || '100%'};
 
         section {
             display: flex;
-        
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
@@ -58,10 +57,10 @@ export const
             min-width: 4rem;
             max-width: 4rem;
             min-height: 4rem;
-            max-height: 4rem; 
-            
+            max-height: 4rem;
+
             border-left: 0rem;
-            
+
             div {
                 display: flex;
 
@@ -69,24 +68,23 @@ export const
                 justify-content: center;
 
                 border-right: 0rem;
-                
+
                 button {
                     min-width: 8rem !important;
                     height: inherit !important;
 
-                    font-size: 1.2rem;  
-                    color: rgba(255,75,0,0.4); 
+                    font-size: 1.2rem;
+                    color: rgba(255,75,0,0.4);
 
                     background-color: transparent;
 
                     cursor: pointer;
 
                     &:hover {
-                        color: rgba(255,75,0,0.6); 
+                        color: rgba(255,75,0,0.6);
                     }
-                }   
+                }
             }
-                    
         }
 
     `

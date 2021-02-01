@@ -2,17 +2,16 @@ import styled, { css, keyframes } from 'styled-components'
 export const
 
     StyledContainerCheckoutPageList = styled.main`
-    
     `,
 
     StyledSectionTextAndLabelSelect = styled.section`
         margin: auto;
 
-        display: flex; 
-        flex-direction: row; 
+        display: flex;
+        flex-direction: row;
         justify-content: space-between;
 
-        width: 90%; 
+        width: 90%;
     `,
 
     StyledSectionNavigatioInterface = styled.nav`
@@ -25,7 +24,6 @@ export const
         height: 4rem;
     `,
     StyledSectionNavigationBar = styled(StyledSectionNavigatioInterface)`
-        
     `,
     StyledSectionNavigationBarItem = styled.span`
         font-size: 1.4rem;
@@ -48,7 +46,7 @@ export const
         }
     `,
     StyledSectionNavigationButton = styled(StyledSectionNavigatioInterface)`
-        justify-content: flex-end;   
+        justify-content: flex-end;
         height: 5rem;
     `,
     StyledSpinnerkeyFrame = keyframes`
@@ -87,7 +85,7 @@ export const
                 background-color: rgba(204,204,204,0.6);
             `
         }
-        
+
         span:not(:first-of-type) {
             display: flex;
             flex: 1;

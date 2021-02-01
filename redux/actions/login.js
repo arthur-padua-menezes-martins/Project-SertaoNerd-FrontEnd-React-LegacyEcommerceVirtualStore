@@ -10,10 +10,11 @@ import { LOGIN, VERIFY_AUTHENTICATION } from '../types.js'
 axios.defaults.withCredentials = true
 
 /* return************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-export const
-
-  sendLoginCredentials = (email, password) => async dispatch => {
-    return await axios.post(`${config.api}/login`, { email, password }).then(async response => {
+export const sendLoginCredentials = (email, password) => async dispatch => {
+  console.log('aqui')
+    return await axios.post(`${config.api}/login`, { email, password }, { withCredentials: true }).then(async response => {
+      console.log(email, password)
+      console.log(response)
       dispatch({
         type: LOGIN,
         payload: response.data

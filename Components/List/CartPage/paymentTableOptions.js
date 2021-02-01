@@ -73,8 +73,8 @@ function DeliveryOptions(props) {
 
 const mapStateToProps = (state, ownProps) => ({
     whatsapp: state.whatsapp,
-    cart: state.cart.cart, 
-    selectedFrete: state.cart.selectedFrete, 
+    cart: state.cart.cart,
+    selectedFrete: state.cart.selectedFrete,
     ownProps,
 })
 export default connect(mapStateToProps, actions)(DeliveryOptions)

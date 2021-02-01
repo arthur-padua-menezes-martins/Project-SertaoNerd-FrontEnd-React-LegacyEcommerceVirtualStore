@@ -9,7 +9,7 @@ export const
     `,
 
     StyledArticleButtonCep = styled.article`
-    
+
         display:flex;
 
         min-height: inherit;
@@ -58,7 +58,7 @@ export const
                 font-weight: 600;
                 color: rgba(255,75,0,0.6);
 
-                background-color: transparent; 
+                background-color: transparent;
 
                 cursor: pointer;
                 transition-property: 'color backgroundColor';
@@ -68,7 +68,7 @@ export const
                     color: #FFFFFF;
                     background-color: ${props => props.theme.colors.primary};
                 }
-            }   
+            }
         }
 
         @media only screen and (max-width: 1199px) {
@@ -84,5 +84,4 @@ export const
                 max-width: ${props => props.inputWidth ? props.inputWidth * 0.8 : '10rem'};
            }
         }
-    
     `

@@ -23,7 +23,7 @@ const Search = props => {
 
 
 
-    
+
     if (typeof window !== 'undefined') {
 
         /*var's*******************************************************************************************/
@@ -116,7 +116,7 @@ const Search = props => {
                             productsByLine={productsByLine} />
 
                         <Footer />
-                        
+
                     </Layout>
                 )
             }

@@ -19,7 +19,7 @@ export const
         align-items: center;
 
         margin: auto;
-    
+
         min-width: 100%;
         max-width: 100%;
         min-height: 2.2rem;
@@ -41,7 +41,7 @@ export const
         }
 
         ${props => props.onlyReading &&
-            css` 
+            css`
                 border:  ${props => props.borderWidth ? `${props.borderWidth}rem` : '0.1rem'} rgba(102,102,102,0.4) ${props => props.borderStyle ? 'solid' : 'dashed'};
             `
         }
@@ -55,7 +55,7 @@ export const
         max-width: ${props => props.inputWidth ? props.inputWidth : '92%'};
 
         font-size: 1.8rem;
-        color: rgba(255,75,0,0.6); 
+        color: rgba(255,75,0,0.6);
     `,
 
     StyledInputTextInput = styled.input`
@@ -65,7 +65,7 @@ export const
 
         font-size: 1.6rem;
         font-weight: ${props => props.fontWeight};
-        color: rgba(255,75,0,0.4);  
+        color: rgba(255,75,0,0.4);
 
         ${props => props.disabled &&
             css`
@@ -107,7 +107,7 @@ export const
 
         font-size: 1.4rem;
         color: rgba(255,75,0,0.4);
-        
+
         ${props => (props.focus || props['data-value']) &&
             css`
                 color: ${props => props.theme.colors.primary};

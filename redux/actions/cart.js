@@ -60,7 +60,7 @@ const cleanFrete = () => ({
   type: CLEAN_CART_FRETE
 })
 
-const cleanThisCart = () => {
+export const cleanThisCart = () => {
   cleanCart()
   return { type: CLEAN_CART }
 }

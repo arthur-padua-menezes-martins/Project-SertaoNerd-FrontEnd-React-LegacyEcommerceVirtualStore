@@ -41,7 +41,7 @@ function Perfil(props) {
 
 
 
-        
+
         if (props.login.authentication.authenticated !== null) {
             if (props.login.authentication.authenticated === true) {
 

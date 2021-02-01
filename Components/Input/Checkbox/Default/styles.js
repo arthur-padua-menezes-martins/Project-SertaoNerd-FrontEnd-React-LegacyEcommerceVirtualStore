@@ -7,7 +7,7 @@ export const
         align-items: center;
 
         margin: 0 !important;
-        
+
         min-width: 4rem;
 
         input {
@@ -15,7 +15,7 @@ export const
 
             width: 2.4rem;
             height: 2.4rem;
-            
+
             background-color: #c6c6c6;
 
             outline: none;
@@ -30,7 +30,7 @@ export const
             transition: 0.6s;
 
             cursor: pointer;
-            
+
             &:checked {
                 background-color: ${props => props.theme.colors.primary};
             }

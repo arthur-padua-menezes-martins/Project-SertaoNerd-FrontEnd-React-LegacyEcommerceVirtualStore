@@ -4,7 +4,7 @@ export const
     StyledTable = styled.table`
         margin: auto;
 
-        width: 100%;    
+        width: 100%;
         height: ${props => typeof props.height === 'number' ? `${(props.height + 1) * 4}rem` : props.height};
     `,
 
@@ -13,7 +13,7 @@ export const
 
         tr:first-child {
             background-color: ${props => props.backgroundColor ? props.backgroundColor : props => props.theme.colors.primary};
-            
+
             td {
                 font-size: 1.6rem;
                 font-weight: 600;

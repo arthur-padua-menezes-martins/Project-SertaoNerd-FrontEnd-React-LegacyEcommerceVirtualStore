@@ -1,7 +1,7 @@
 export const
 
     WHATSAPP_VERSION = 'WHATSAPP_VERSION',
-    
+
     REGISTER = 'REGISTER',
 
     LOGIN = 'LOGIN',

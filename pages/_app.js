@@ -51,7 +51,7 @@ console.log(props)
     )
 }
 
-MyApp.getInitialProps = async (ctx) => { 
+MyApp.getInitialProps = async (ctx) => {
     const appProps = await App.getInitialProps(ctx)
     return await { ...appProps }
 }
